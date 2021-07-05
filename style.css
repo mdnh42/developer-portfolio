@@ -14,7 +14,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -24,6 +24,7 @@ section{
     padding-left: 5%;
     margin-top: 50px;
     margin-left: 40px;
+    
 
 }
 .half-width img{
@@ -45,3 +46,33 @@ section{
     background-position: right;
 }
 
+.experience-iteam{
+    box-shadow: 5px 5px 40px gray;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#web-developer {
+    border-left: 7px solid tomato;
+    
+}
+#baby-developer{
+    border-left: 7px solid salmon;
+}
+
+footer p{ 
+    text-align: center;
+}
